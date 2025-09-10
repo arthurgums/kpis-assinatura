@@ -145,7 +145,7 @@ def extract_net_amount(tx):
             except (ValueError, TypeError): continue
     return 0.0
 
-def sub_created_at(sub): # <-- FUNÇÃO ADICIONADA DE VOLTA
+def sub_created_at(sub):
     return from_iso_any(sub_get(sub, "created_at","started_at"))
 
 def sub_cancelled_at(sub):
@@ -156,7 +156,7 @@ def sub_cancelled_at(sub):
     return None
 
 def get_subscription_status(sub, asof_dt):
-    if sub_created_at(sub) > asof_dt: return "future"
+    if sub_created_at(sub) and sub_created_at(sub) > asof_dt: return "future"
     if sub_cancelled_at(sub) and sub_cancelled_at(sub) <= asof_dt: return "canceled"
     last_status = (sub_get(sub, "last_status") or "").lower()
     if last_status in ["pastdue", "overdue", "unpaid", "delinquent"]: return "overdue"
@@ -183,10 +183,15 @@ def fetch_and_generate_reports():
 
 def fetch_with_chunks(client, path, date_key_ini, date_key_end, start_date, end_date):
     print(f"Iniciando busca em '{path}' por períodos de {API_MAX_RANGE_DAYS} dias...")
+    unique_items = {}
     for ini, end in chunk_date_strings(start_date, end_date):
         print(f"  -> Buscando período: {ini} a {end}")
         params = {date_key_ini: ini, date_key_end: end}
-        yield from client.paginate(path, params)
+        for item in client.paginate(path, params):
+            item_id = item.get("id")
+            if item_id:
+                unique_items[item_id] = item
+    return list(unique_items.values())
 
 def generate_detailed_csv(subs, txs, end_date_str):
     print("\nGerando relatório detalhado de assinaturas (assinaturas.csv)...")
@@ -219,7 +224,6 @@ def generate_kpi_csvs(subs, txs, start_date_str, end_date_str):
     
     extract_confirmed_at_from_tx = lambda t: from_iso_any(_from_nested(t, ["dates", "confirmed_at"]))
 
-    # Monthly KPIs
     monthly_kpis = []
     month_iter = start_dt.replace(day=1)
     while month_iter <= end_dt:
@@ -236,7 +240,6 @@ def generate_kpi_csvs(subs, txs, start_date_str, end_date_str):
         writer = csv.DictWriter(f, fieldnames=["month", "novas_assinaturas_brutas", "cancelamentos_brutos", "receita", "ticket_medio"])
         writer.writeheader(); writer.writerows(monthly_kpis)
 
-    # Weekly KPIs
     weekly_kpis = []
     day_iter = start_dt - timedelta(days=start_dt.weekday())
     while day_iter <= end_dt:
