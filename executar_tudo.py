@@ -14,7 +14,6 @@ def executar_script(nome_script):
     python_executable = sys.executable
     
     try:
-        # CORREÇÃO: Adicionado 'errors='replace'' para evitar falhas com caracteres inválidos
         processo = subprocess.Popen(
             [python_executable, nome_script],
             stdout=subprocess.PIPE,
@@ -61,7 +60,7 @@ if __name__ == "__main__":
             break
     else:
         end_time = datetime.now()
-        dashboard_path = os.path.abspath(os.path.join('dashboard', 'index.html'))
+        dashboard_path = os.path.abspath(os.path.join('docs', 'index.html'))
         print("\n\nPROCESSO FINALIZADO COM SUCESSO!")
         print(f"Concluído em: {end_time.strftime('%d/%m/%Y %H:%M:%S')}")
         print(f"Duração total: {end_time - start_time}")

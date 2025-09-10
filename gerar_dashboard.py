@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
 import plotly.graph_objects as go
-from datetime import datetime, timedelta
+from datetime import datetime
 import json
 import os
 
@@ -10,7 +10,7 @@ import os
 # CONFIGURAÇÃO
 # =========================
 OUT_DIR = './out'
-DASHBOARD_DIR = './dashboard'
+DASHBOARD_DIR = './docs'
 ASSINATURAS_CSV = os.path.join(OUT_DIR, 'assinaturas.csv')
 OUTPUT_HTML = os.path.join(DASHBOARD_DIR, 'index.html')
 
@@ -91,7 +91,6 @@ h1, h2 { text-align: center; color: #1c1e21; margin-bottom: 20px; }
 h2 { margin-top: 40px; border-bottom: 1px solid #ddd; padding-bottom: 10px; font-size: 1.2em; color: #333; }
 p.footer { text-align: center; color: #606770; font-size: 0.9em; margin-top: -15px; margin-bottom: 30px; }
 .filters { display: flex; justify-content: center; margin-bottom: 30px; }
-/* Estilo para o container do Flatpickr, que agora é um input */
 #date-range-picker { text-align: center; font-size: 1.1em; padding: 10px; border-radius: 8px; border: 1px solid #ccc; width: 300px; }
 .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
 .kpi-card { background-color: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
@@ -211,24 +210,19 @@ document.addEventListener('DOMContentLoaded', () => {{
     const thirtyDaysAgo = new Date();
     thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
 
-    flatpickr("#date-range-picker", {{
+    const fp = flatpickr("#date-range-picker", {{
         mode: "range",
         dateFormat: "Y-m-d",
         defaultDate: [thirtyDaysAgo, "today"],
-        "locale": "pt", // Tradução para português
+        "locale": "pt",
         onChange: function(selectedDates) {{
             if (selectedDates.length === 2) {{
                 updateDashboard(selectedDates[0], selectedDates[1]);
             }}
-        }},
-        onReady: function(selectedDates, dateStr, instance) {{
-            // Carga inicial dos dados com o período padrão
-            if(instance.selectedDates.length === 2) {{
-                updateDashboard(instance.selectedDates[0], instance.selectedDates[1]);
-            }}
         }}
     }});
-
+    
+    updateDashboard(fp.selectedDates[0], fp.selectedDates[1]);
     document.getElementById('last-update').textContent = `Dados atualizados em: {datetime.now().strftime("%d/%m/%Y %H:%M:%S")}`;
 }});
     """
