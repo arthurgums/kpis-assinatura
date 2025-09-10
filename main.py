@@ -1,6 +1,10 @@
 # main.py
 # -*- coding: utf-8 -*-
-import os, json, csv, time, math
+import os
+import json
+import csv
+import time
+import math
 import requests
 from datetime import datetime, timedelta
 from collections import defaultdict
@@ -141,6 +145,9 @@ def extract_net_amount(tx):
             except (ValueError, TypeError): continue
     return 0.0
 
+def sub_created_at(sub): # <-- FUNÇÃO ADICIONADA DE VOLTA
+    return from_iso_any(sub_get(sub, "created_at","started_at"))
+
 def sub_cancelled_at(sub):
     dt = from_iso_any(sub_get(sub, "cancelled_at"))
     if dt: return dt
@@ -149,7 +156,7 @@ def sub_cancelled_at(sub):
     return None
 
 def get_subscription_status(sub, asof_dt):
-    if from_iso_any(sub_get(sub, "created_at","started_at")) > asof_dt: return "future"
+    if sub_created_at(sub) > asof_dt: return "future"
     if sub_cancelled_at(sub) and sub_cancelled_at(sub) <= asof_dt: return "canceled"
     last_status = (sub_get(sub, "last_status") or "").lower()
     if last_status in ["pastdue", "overdue", "unpaid", "delinquent"]: return "overdue"
@@ -204,12 +211,14 @@ def generate_detailed_csv(subs, txs, end_date_str):
                 ticket = round(price, 2) if price is not None else 0.0
             status = get_subscription_status(s, end_dt)
             if status == "future": continue
-            writer.writerow([sid, fmt_date(from_iso_any(sub_get(s, "created_at","started_at"))), fmt_date(sub_cancelled_at(s)), status, _from_nested(s, ["contact", "name"]), _from_nested(s, ["product", "name"]), f"{ticket:.2f}", len(sub_txs) or sub_get(s, "charged_times", 0), "TRUE" if status == "active" else "FALSE"])
+            writer.writerow([sid, fmt_date(sub_created_at(s)), fmt_date(sub_cancelled_at(s)), status, _from_nested(s, ["contact", "name"]), _from_nested(s, ["product", "name"]), f"{ticket:.2f}", len(sub_txs) or sub_get(s, "charged_times", 0), "TRUE" if status == "active" else "FALSE"])
 
 def generate_kpi_csvs(subs, txs, start_date_str, end_date_str):
     print("\nGerando relatórios de KPIs (semanal e mensal)...")
     start_dt, end_dt = to_tz(start_date_str), to_tz(end_date_str)
     
+    extract_confirmed_at_from_tx = lambda t: from_iso_any(_from_nested(t, ["dates", "confirmed_at"]))
+
     # Monthly KPIs
     monthly_kpis = []
     month_iter = start_dt.replace(day=1)
@@ -218,7 +227,7 @@ def generate_kpi_csvs(subs, txs, start_date_str, end_date_str):
         month_end = (month_ini + timedelta(days=32)).replace(day=1) - timedelta(days=1)
         novas = len([s for s in subs if sub_created_at(s) and month_ini <= sub_created_at(s) <= month_end])
         cancelados = len([s for s in subs if sub_cancelled_at(s) and month_ini <= sub_cancelled_at(s) <= month_end])
-        receita = sum([extract_net_amount(t) for t in txs if extract_confirmed_at(t) and month_ini <= extract_confirmed_at(t) <= month_end])
+        receita = sum([extract_net_amount(t) for t in txs if extract_confirmed_at_from_tx(t) and month_ini <= extract_confirmed_at_from_tx(t) <= month_end])
         ativos_fim_mes = len([s for s in subs if sub_created_at(s) <= month_end and (not sub_cancelled_at(s) or sub_cancelled_at(s) > month_end)])
         monthly_kpis.append({"month": month_ini.strftime("%Y-%m"), "novas_assinaturas_brutas": novas, "cancelamentos_brutos": cancelados, "receita": round(receita, 2), "ticket_medio": round(receita / ativos_fim_mes, 2) if ativos_fim_mes > 0 else 0})
         month_iter = (month_iter + timedelta(days=32)).replace(day=1)

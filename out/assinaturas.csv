@@ -1,4 +1,5 @@
 id,data_assinatura,data_cancelamento,status_detalhado,nome_assinante,produto_oferta,ticket_oferta,qtd_ciclos_renovados,ativo
+sub_ZV0wy00E661VdmDS,2025-05-28,2025-09-10,canceled,Andre Brandao,1 Cordyceps 2 Juba de Leão,212.74,3,FALSE
 sub_Z5mNCSB4hVSCt4jz,2025-09-10,,active,Jessica Hammes,1 All In Greens,124.34,1,TRUE
 sub_QbXVkTkvs6xFu5SI,2025-09-10,,active,Gustavo Moreira Arrais Neto,1 Natural Fire,124.34,1,TRUE
 sub_HwpdNm5IwDu5U5Q0,2025-09-10,,active,Luiz Inácio Montanher Júnior,3 All In Greens,271.67,1,TRUE
@@ -7,7 +8,379 @@ sub_KrTduULHydXhQqgl,2025-08-10,,active,Hugo Cabral,1 All In Greens + 1 Natural 
 sub_AVv9BjI9t5FlYNMk,2025-08-08,,overdue,Vinicius Mafra,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
 sub_Oq9ZOLUAkDPdxtkt,2025-08-10,,active,Orlando Benedito De Souza,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
 sub_orxhpc06MZbhV2Fk,2025-08-10,,active,Adrielli Cerqueira,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
-sub_ZV0wy00E661VdmDS,2025-05-28,,overdue,Andre Brandao,1 Cordyceps 2 Juba de Leão,212.74,3,FALSE
+sub_FLOws1Va52gcbiMY,2025-08-10,,active,Osni De Freitas Junior,3 Natural Fire,271.67,2,TRUE
+sub_oHxkMivtfqJMc8XD,2025-06-09,,active,Walter Alves Ferreira,BrainJuice CEO Pack,212.74,4,TRUE
+sub_9wKNTwnRZaer9mN5,2025-08-08,,overdue,Ingrid Bayard,1 All In Greens,124.34,1,FALSE
+sub_C21BSDrbuzk7bAxt,2025-05-08,,overdue,Vanessa Manacero,2 Cordyceps + 1 Juba de Leão,215.92,1,FALSE
+sub_02Wax6T1mDu2OtVZ,2025-09-10,,active,Daniel Lopes Lima,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_vSwO6EOD7ePj2taa,2025-09-10,,active,Luan Dudus D Aniello Da Silveira,1 Natural Fire,124.34,1,TRUE
+sub_Am9pX4tQDku8ItOR,2025-09-09,,active,Eduardo Alexandre Alves Evangelista,1 Natural Fire,124.34,1,TRUE
+sub_P1Ow9RFRW90QgYpl,2025-09-09,,active,Luiz Felipe Costa,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_AjMzyMDy9m5O1zGD,2025-09-09,,active,José Guimarães Da Silva Neto,3 Natural Fire,271.67,1,TRUE
+sub_LnExweUvcYOKncls,2025-09-09,,active,Túlio Moraes,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_Ocb9ZguC5iY2krSC,2025-09-09,,active,Guilherme Fernando Costa Antonio,3 Natural Fire,271.67,1,TRUE
+sub_LkWg79Wi2u28I5fI,2025-09-09,,active,Zhongxiang Huang,1 All In Greens,124.34,1,TRUE
+sub_R9dVGk5Ov0FQYnZf,2025-09-09,,active,Roberto Carlos De Jesus Oliveira,1 All In Greens,124.34,1,TRUE
+sub_fcXypePIfhAIwo4P,2025-06-06,2025-09-09,canceled,Fernando Malheiros,BrainJuice CEO Pack,212.74,3,FALSE
+sub_LCl92zD4jk4EbItk,2025-09-09,,active,Alberto Luiz De Paula Filho,1 All In Greens,124.34,1,TRUE
+sub_lW5NHB3kOISd3Wg0,2025-09-09,,active,Bruno Dos Anjos Almeida,3 All In Greens,271.67,1,TRUE
+sub_9eynsDKF6ojZ4Df6,2025-09-09,,active,Raphael De Melo Matos,1 Natural Fire,124.34,1,TRUE
+sub_Dfi7OtU4fYtW7yPK,2025-08-09,,active,Pedro Henrique De Melo Moraes,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_VdVOApMEzensxA1F,2025-05-08,,active,Crishna Mayra Abdon,BrainJuice CEO Pack,212.74,5,TRUE
+sub_D4mfIlEsU9znjlk5,2025-06-08,,active,Fabrizio Bucaneve,1 Cordyceps 2 Juba de Leão,212.74,4,TRUE
+sub_WwoaYDxHGr43RNbO,2025-08-09,,active,Ricardo De Araujo Galli,2 All In Greens + 2 Natural Fire (Assinatura),404.27,2,TRUE
+sub_MhgfM2shkMn4n7Mf,2025-08-09,,overdue,Eduardo Franklin,1 Natural Fire,124.34,1,FALSE
+sub_uGAOU2x805BD4Wlw,2025-08-09,,active,Joao Paulo Damas Neto,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_yygZYucQGi7VZbhp,2025-08-07,,overdue,Jessica Hammes,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
+sub_nie8V3B2x8iIfyiu,2025-08-03,2025-09-09,canceled,Arqtatiane Tavares,1 All In Greens,124.34,1,FALSE
+sub_M0M7eLNxwTcaJZa4,2025-09-08,,inactive,Yuri Feitosa,1 All In Greens,0.00,0,FALSE
+sub_pzQnmqqO7oYfgikg,2025-08-06,,active,Kleymerson Miranda Dos Santos,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_CDlzkqwpUv8j7YIh,2025-09-08,,active,Murillo Furquim Dora De Souza Gilioli,1 Natural Fire,124.34,1,TRUE
+sub_zx2emH9FV13H5Q0s,2025-08-06,2025-09-08,canceled,Guilherme Marques,1 Natural Fire,124.34,2,FALSE
+sub_sekvobvXr5z9UOsc,2025-09-08,,inactive,Yuri Feitosa,1 All In Greens,0.00,0,FALSE
+sub_T6IzQdNtts8lWXpQ,2025-05-06,,active,Renato Tambellini,BrainJuice CEO Pack,212.74,5,TRUE
+sub_xfJkyK2u8tmagQI0,2025-05-07,,active,Carlos Eduardo Do Valle,BrainJuice CEO Pack,212.74,5,TRUE
+sub_V2w370ck0zIdS7V6,2025-05-07,,active,Igor Gomes,3 Juba de Leão,212.74,5,TRUE
+sub_IIwqz9CYZXxjZtrX,2025-08-02,2025-09-08,canceled,Paula Borges,1 All In Greens,124.34,1,FALSE
+sub_ClLpYLJJZ6cyolVS,2025-07-08,,active,Daniel Souza Barbosa,2 Reishi + 1 Juba de Leão,212.74,3,TRUE
+sub_o7QSBIuHOKqlhuJd,2025-08-08,,active,André Grilo,1 All In Greens,124.34,2,TRUE
+sub_uYlGy6idBWCH3ATx,2025-08-08,,active,Lucas De Jesus Souza,3 All In Greens,271.67,2,TRUE
+sub_TJZYchxrBumRmPf0,2025-05-06,,overdue,Talita Montezuma,2 Cordyceps + 1 Juba de Leão,215.92,1,FALSE
+sub_HwwsDPo5yeufdLmF,2025-09-08,,active,Marcelo Pazzini,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_WZo3vr7LZRC4O4wZ,2025-09-07,,active,Bruno Orsi Gomes,1 All In Greens,124.34,1,TRUE
+sub_H0p3UjNClsG3xLDl,2025-09-07,,active,Arthur Cesar Oreana,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_kXS2uuYb327dEFwD,2025-09-07,,active,Priscila Scherer,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_MG8tNn6GCWgssddz,2025-09-07,,active,Cristian Antoniv,1 All In Greens,124.34,1,TRUE
+sub_KKKvd8mMre4QW4UT,2025-09-07,,active,Marcio Pasetto Varoli,3 Natural Fire,271.67,1,TRUE
+sub_tTzWlJt3AjwNUgOR,2025-09-07,,active,Felipe Giambastiani Oliveira,1 Natural Fire,124.34,1,TRUE
+sub_qIBGmJKyn8Z9iwxM,2025-09-07,,active,Rhodrygo De Farias Fagundes Pereira,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_gt4SNQ4M5YpIkPDR,2025-09-07,,active,Graziela Cardoso Vanin,3 All In Greens,271.67,1,TRUE
+sub_TA6KBqEibKRdia5g,2025-09-07,,active,Cesar Valente,1 Natural Fire,124.34,1,TRUE
+sub_NZ8V0sbSERwomlO9,2025-09-07,,active,Mariana Bombach,1 All In Greens,124.34,1,TRUE
+sub_7acHxq5wZ3sBpvlV,2025-06-06,,active,Douglas Tognoni,BrainJuice CEO Pack,212.74,4,TRUE
+sub_8hHwlZu2LbIe9OXw,2025-08-07,,active,André Piccoli,1 All In Greens,124.34,2,TRUE
+sub_P4iTklKf5lZf5ytv,2025-05-06,2025-09-07,canceled,Cibele Vale De Oliveira,BrainJuice CEO Pack,212.74,4,FALSE
+sub_ReuWt76j4zQMnV00,2025-05-06,,active,Rafael Almeida,1 Cordyceps 2 Juba de Leão,212.74,5,TRUE
+sub_XX0vAL26utR8D2c8,2025-08-01,2025-09-07,canceled,Alessandro De Oliveira Amadeu,1 All In Greens,124.34,1,FALSE
+sub_OaS9kYS3MU0pYUeB,2025-09-07,,active,Maria Clara De Melo Costa,1 All In Greens,124.34,1,TRUE
+sub_ZmZ9jAMYvrxs9rfR,2025-09-07,,active,Juliana Badaró,1 All In Greens,124.34,1,TRUE
+sub_LuaiaRBKPcUTrh9K,2025-09-06,,active,Nilton Garcia Sainz,1 Natural Fire,124.34,1,TRUE
+sub_vItRChrWqjoWSRnE,2025-09-06,,active,João Pedro Negrão,1 Natural Fire,124.34,1,TRUE
+sub_N9pJJQ2HqdTMXAyj,2025-09-06,,active,Vivianne R Elleres Fares,1 All In Greens,124.34,1,TRUE
+sub_65FAjiiKgXjwR2pQ,2025-09-06,,active,Lucas Zanela,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_2KJsLy9HALg1rP0L,2025-09-06,,active,Lucas Zanela,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_P0LyqdylXxQsNhRe,2025-09-06,,active,Lucas José,1 All In Greens,124.34,1,TRUE
+sub_t9xSjbdrOu8BSkN0,2025-09-06,,active,Ricardo Visnardi Gennari,1 Natural Fire,124.34,1,TRUE
+sub_4gW80jAj5mVn7elH,2025-09-06,,active,Ilana Mara Borges Barreto Dos Santos,3 All In Greens,271.67,1,TRUE
+sub_DkVfUle6tsurVIUQ,2025-09-06,,active,Heloísa Bardal,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_wPa5NUK55vNI0JzH,2025-09-06,,active,Sandra Conceição Ricardo,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_59nIwIzMM63xc65r,2025-08-06,2025-09-06,canceled,Fabio De,3 All In Greens,271.67,1,FALSE
+sub_HzVo0IfWRHLgIZ3I,2025-09-06,,active,Simone Puhl Ferle,1 Natural Fire,124.34,1,TRUE
+sub_91zq6lavzOfDpfqx,2025-08-06,,active,Flávio Mattos,1 All In Greens,124.34,2,TRUE
+sub_G94U1zMrFZ19CvGa,2025-08-06,,active,André Luis Castilho Viegas,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_Uu2LKXzbAqijhRC6,2025-04-29,2025-09-06,canceled,Paola Lobo Vianna,BrainJuice CEO Pack  (Cópia),212.74,4,FALSE
+sub_VgI9ECsUJbV9R0zM,2025-08-06,,active,Osmar Neto,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_XiPoASzey0ShwHKb,2025-04-29,2025-09-06,canceled,Gabriel Labanca,BrainJuice CEO Pack,212.74,4,FALSE
+sub_GCCb0HPLDx6OODnH,2025-09-06,,active,Barbara Aletea Baldoino,1 Natural Fire,124.34,1,TRUE
+sub_SZL7U5Tox9VwkecU,2025-09-06,,active,Paula Borges,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_bIucO1xQVgHVXkC4,2025-09-06,,active,Andreia Bottino,1 All In Greens,124.34,1,TRUE
+sub_hsVS5NkcbWTmK5yD,2025-09-06,,active,Anderson Murta Jr,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_PwETDTSPWO35Dwdz,2025-09-06,,active,Denis Alves,3 All In Greens,271.67,1,TRUE
+sub_VFxpEeWKRvYdZaQe,2025-09-05,,inactive,Eduardo Pereira,1 All In Greens + 1 Natural Fire,0.00,0,FALSE
+sub_Kc8G3wyt54ZrArVl,2025-09-05,,active,Robson Adami Campos,BrainJuice CEO Pack,212.74,1,TRUE
+sub_pndwsUrNmmIP1Ch9,2025-09-05,,active,Rodrigo Lopes Domingos,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_fHsYjZ77sIVorWDB,2025-09-05,,active,Suzana Matheus Pereira,1 Natural Fire,124.34,1,TRUE
+sub_07hbgaJcyp9niEWq,2025-08-05,2025-09-05,canceled,Lucas De Jesus Souza,3 All In Greens,271.67,1,FALSE
+sub_AFIQStcYgHTbxHCU,2025-08-05,2025-09-05,canceled,Caio Moreira Teixeira,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
+sub_WLaWqJcKQkKvocqk,2025-08-05,2025-09-05,canceled,Luiz Gustavo De Oliveira,1 Natural Fire,124.34,1,FALSE
+sub_Aq3WYKfpbSdtJNxJ,2025-08-05,2025-09-05,canceled,Henrique Mubarack,3 All In Greens,271.67,1,FALSE
+sub_KbzZTjDMUf9W9wC0,2025-05-06,2025-09-05,canceled,Juliano Ferreira Schemes,BrainJuice CEO Pack,212.74,2,FALSE
+sub_50HwhV50ACbHaVr1,2025-07-05,,active,Vinicius Cazarim,2 Natural Fire + 1 All In Greens,268.72,3,TRUE
+sub_Ino8AA1eEQieZXmU,2025-09-05,,active,Matheus Arnoldi Da Silva,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_71vyI7tOOTI61dIT,2025-05-06,,active,Ricardo Vilela,BrainJuice CEO Pack,212.74,3,TRUE
+sub_E5WnjTCIOtiK7s5A,2025-09-05,,active,Adriano Mota,2 All In Greens,212.74,1,TRUE
+sub_lGZaqV6dYun8lyBn,2025-09-05,,active,Bruno Souza,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_qBUqgfWUfwJkpGFY,2025-09-05,,active,Jennyfer Teixeira De Sousa,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_TyXElAyQJL6QME9z,2025-09-04,,active,Mauro Tony,1 Natural Fire,124.34,1,TRUE
+sub_JqXZ6HmGuwK7QFYK,2025-09-04,,active,Andréa Mourão Melo,1 All In Greens,124.34,1,TRUE
+sub_yzYC7lPIH8jMRXJ4,2025-09-04,,active,Glaucio Feliciano De Souza,3 Natural Fire,271.67,1,TRUE
+sub_yTMy5PaCN4sXEHAY,2025-09-04,,active,Daniel Oliveira,BrainJuice CEO Pack,212.74,1,TRUE
+sub_1lnyU91vyjjgUmwM,2025-09-04,,active,Felipe Sisley,1 All In Greens,124.34,1,TRUE
+sub_NPRnkFfLBHRBvMkB,2025-09-04,,active,Marcelo Mainieri,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_3Di4WJ0HfjWDiEWu,2025-09-04,,active,Murilo Tiefensee,1 Natural Fire,124.34,1,TRUE
+sub_yb3G9GmknJY0e2Jx,2025-08-04,,active,Christian Schneider Piccolo,1 All In Greens,124.34,2,TRUE
+sub_9i2Fs9PF1O3tsPng,2025-07-04,,active,Leonardo Thomasi,BrainJuice CEO Pack,212.74,3,TRUE
+sub_WFrhPBEb7Q1YqoGy,2025-04-29,2025-09-04,canceled,Daniel Oliveira,BrainJuice CEO Pack,212.74,2,FALSE
+sub_p9yKALtmoSMwsKFt,2025-07-29,2025-09-04,canceled,Anderson Silva De Souza,1 Natural Fire,124.34,1,FALSE
+sub_HhTShgowmAuKfVef,2025-09-04,,active,Alan De Castro De Archangelo,1 Natural Fire,124.34,1,TRUE
+sub_JryRV9YEDgJrf627,2025-09-04,,active,Murilo Fonseca Rebouças,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_BZyvrera2F74ZXCo,2025-09-04,,active,Lucas Bahia Lara,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_HVidrhgKZfqAL7YS,2025-09-04,,active,Felipe José Casaril,3 All In Greens,271.67,1,TRUE
+sub_HYXGVjvj8gfnX2wE,2025-09-04,,active,Rodrigo Leal,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_aJTHRd2Wm0vUE5je,2025-07-03,,overdue,Arthur Gums,BrainJuice CEO Pack  (Teste),4.01,1,FALSE
+sub_BAdcL5aXJH1WnfX3,2025-09-04,,active,Gabriel Pipino,1 Natural Fire,124.34,1,TRUE
+sub_MDmaahrB6vwXTa15,2025-09-04,,active,Silvio Gonzez De Marchi,1 Natural Fire,124.34,1,TRUE
+sub_hWXBo0UsOPfq0QzV,2025-09-03,,active,Ruan Calenzani Barros,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_MRAnNnfsKuOvAa4b,2025-09-03,,active,Eduardo Zempulski,2 Natura Fire,212.74,1,TRUE
+sub_Gr7LNU6bM7lCCeaT,2025-09-03,,active,Danilo Barbosa,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_4z7QLv571bxmDrzf,2025-09-03,,active,Marcela Almeida Nogueira Carvalho,3 All In Greens,271.67,1,TRUE
+sub_R5GJM5pyRiios3xY,2025-09-03,,active,Victor Andraus,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_nktmTkbrGRRUXyC6,2025-09-03,,active,Rodrigo Alsleben Faustino,1 All In Greens,124.34,1,TRUE
+sub_YUzGjVaspnzVSuqD,2025-09-03,,active,João Carlos Mussio Filho,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_o3vJKK94UNKqspKh,2025-08-03,2025-09-03,canceled,Matheus Waltrick,1 Natural Fire,124.34,2,FALSE
+sub_yyumDtJxyhaig4Zq,2025-09-03,,active,Thiago Ramos,1 All In Greens,124.34,1,TRUE
+sub_DspMX1Y8BFaoXgVZ,2025-09-03,,active,Guilherme Rocha,1 Natural Fire,124.34,1,TRUE
+sub_oBB2IqhrVl08BCQc,2025-08-03,,active,Guilherme Guimarães,1 All In Greens,124.34,2,TRUE
+sub_RphdD4n6U9ruEUXK,2025-08-03,,active,Bruno De Ázara,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_eVs0ofAXn6Zii2jE,2025-08-03,,active,Renan Silva,3 Natural Fire,271.67,2,TRUE
+sub_lD2ZXa0BJ8GvH3AT,2025-09-03,,active,Maicon Santos,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_fyMdRWgbqByeBKv3,2025-07-03,,active,Vinicius Fontes,2 All In Greens,212.74,3,TRUE
+sub_y9jwuYlKkgJB9rcW,2025-09-03,,active,Júnior Arruda,1 All In Greens,124.34,1,TRUE
+sub_M3aHsnT4LVKGFdG8,2025-09-03,,active,Bruno Trevisan,1 Natural Fire,124.34,1,TRUE
+sub_FJUEBQ1RqI1fCub1,2025-09-03,,active,Mario Luiz Ribeiro Fonseca,1 Natural Fire,124.34,1,TRUE
+sub_pE2dQzAic1QPN2IL,2025-09-02,,active,Stefhany Dos Santos Marques,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_muYZX1bMZZrOAeTg,2025-09-02,,active,Júlia Scalon,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_gtNyLfm0VzTawkyV,2025-09-02,,active,Breno Duarte,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_hVL2PRF0AMfMrXkE,2025-09-02,,active,Luiz Gustavo Noronha,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_qTzriFblBamClLGO,2025-09-01,,active,Josenildo Diolindo Farias,1 All In Greens,124.34,1,TRUE
+sub_xprKOWedoP92D3AU,2025-09-02,,inactive,Michele Aparecida Mendes,3 Natural Fire,0.00,0,FALSE
+sub_eysdEhpq5iGklcVS,2025-06-30,,active,Tiago Abel De Souza,BrainJuice CEO Pack,212.74,3,TRUE
+sub_UfjfPbKHRTvTdq91,2025-09-02,,active,Ricardo Barcelos Ditzel,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_mqAPMNIkl8hrXvLa,2025-05-01,2025-09-02,canceled,Tatiane Mendes Oliveira,BrainJuice CEO Pack,212.74,4,FALSE
+sub_A0a9mKBwVAK4sYFD,2025-05-01,,active,Tania Lund,BrainJuice CEO Pack  (Cópia),212.74,5,TRUE
+sub_kxVOtHqHku2y8c1k,2025-07-02,,active,Thiago Magno De Carvalho Costa,BrainJuice CEO Pack,212.74,3,TRUE
+sub_IzxrHcuSCdSFSrrl,2025-09-02,,active,Anis Taha,2 Natura Fire,212.74,1,TRUE
+sub_lX7Nppdf1yeDn1sG,2025-05-01,,active,Daniel Marcos,2 Cordyceps + 1 Juba de Leão,212.74,5,TRUE
+sub_U3H9bEPDOvZDC8mV,2025-09-02,,active,Marcia Uehara,1 All In Greens,124.34,1,TRUE
+sub_htevN7zgca8pZkSo,2025-05-01,,active,Felipe Trindade Da Costa,1 Cordyceps 2 Juba de Leão,212.74,5,TRUE
+sub_rNBdFdX01TRc9g2r,2025-09-02,,active,Vitor Melo,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_B5cUF5152aDQhfaU,2025-08-01,,active,Henrique Caixeta Cunha,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_ChXB0oLmiK0J2Al5,2025-09-01,,active,Simone Rodrigues Reis,3 Natural Fire,271.67,1,TRUE
+sub_TDbLX7aLASteS3JJ,2025-09-01,,active,Gabriel Labanca,3 Reishi,212.74,1,TRUE
+sub_cmlcULRxIzBOXC0t,2025-09-01,,active,Marcelo Fernandes,3 Natural Fire,271.67,1,TRUE
+sub_ezwVHqlDkAvHb7Gz,2025-08-01,2025-09-01,canceled,Faissal Fauez El Assal,1 All In Greens,124.34,1,FALSE
+sub_ND4MIfAFBFQOJdlw,2025-08-01,2025-09-01,canceled,Eduardo Bazani,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
+sub_lKXSA65F2YacsSxH,2025-09-01,,active,Mariana Marx Buttelli,1 All In Greens,124.34,1,TRUE
+sub_9TTrdpN3SCU6M4xe,2025-08-01,,active,Adriana Marques,1 All In Greens,124.34,2,TRUE
+sub_9PsxAW6H4pkdwKqB,2025-08-01,,active,Josielington Teixeira De Souza,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_fYoaMWCp16BW3xIA,2025-04-30,,active,Emanuel Smith,1 All In Greens + 1 Natural Fire,212.74,5,TRUE
+sub_xuJ1FBt3OenK2QZl,2025-08-31,,active,Victor Ditzel Maia,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_x3e6TEZhNEbnKFts,2025-07-31,2025-08-31,canceled,Arthur Da Rocha Alves,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
+sub_wxmdYu8v6A64OweM,2025-07-31,,active,Alan Alves Vieira,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_n19Ss9kCJ2emAI16,2025-07-31,,active,Ricardo Vinco Do Nascimento,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_Xxk6m4ry6CPSlMRr,2025-07-31,,active,Marco Antonio Mendes Ferreira,BrainJuice CEO Pack,212.74,2,TRUE
+sub_liEPri56JkKvdskS,2025-07-31,,active,Marian Regina Kreutzfeld,3 All In Greens,271.67,2,TRUE
+sub_afmi0JfN1HSWPhnA,2025-05-01,,active,Miguel Mechi Naves Rocha,3 Juba de Leão,212.74,3,TRUE
+sub_Gl53IXnCluF6Xlij,2025-04-29,,active,Thelma Bueno,1 Reishi + 2 Juba,212.74,5,TRUE
+sub_j6ewtHU5YMDPAZFQ,2025-08-30,,active,Leo Miller,1 All In Greens,124.34,1,TRUE
+sub_Y0rpDpQzttUoWjhc,2025-08-30,,active,Pedro Henrique De Campos Pascoal,1 Natural Fire,124.34,1,TRUE
+sub_SJn6RfeEbnHnS5aK,2025-08-30,,active,Antonio Roberto Pinheiro,1 All In Greens,124.34,1,TRUE
+sub_j18gME7qTJFwfREW,2025-08-30,,active,Guilherme Dall Acqua,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_NTo5zpmxv5dpGqOG,2025-04-28,,active,Solon Giovanni De Paula Miranda,BrainJuice CEO Pack,212.74,5,TRUE
+sub_qnAIiu6tV2e5fLly,2025-06-29,2025-08-30,canceled,Ana Carolina Sotana,BrainJuice CEO Pack,212.74,2,FALSE
+sub_7oVTaexxjITkBM1I,2025-04-28,,active,Thiago Henrique Lepri De Almeida,2 All In Greens,212.74,5,TRUE
+sub_1m5g9WDQO3wvnCyR,2025-05-29,,active,Adalberto Rodrigues Pereira,3 Cordyceps + 3 Juba de Leão + Natural Fire,425.87,4,TRUE
+sub_i9XSXfPHN8CclbqP,2025-08-30,,active,Aurelio Faria,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_Q4pzJQHxsY2xBGQj,2025-08-29,,active,André Almeida,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_nlz19pvdUmohn0zP,2025-07-29,2025-08-29,canceled,Paola Pontes,1 Natural Fire,124.34,1,FALSE
+sub_IHwIIeG7vw6spRWg,2025-07-29,,active,Laura Terezinha Da Silva Maia,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_v6pl0WsYQDUrq4Qn,2025-08-28,,active,Anderson Alves,1 Natural Fire,124.34,1,TRUE
+sub_jVHyk7FYSdZk1hRU,2025-08-28,,active,Gustavo Seithy Katayama,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_hFFpKF9xPMUA1J1t,2025-06-26,2025-08-28,canceled,Alexandre Amorim De Matos,1 Cordyceps 2 Juba de Leão,215.92,1,FALSE
+sub_cWzktpxGA7kpFtJ8,2025-08-28,,active,Alexandre Amorim De Matos,1 Cordyceps 2 Juba de Leão,212.74,1,TRUE
+sub_cc3sRfgfFJRmk6Qu,2025-08-28,,active,Vitor Polli,1 All In Greens,124.34,1,TRUE
+sub_mELBhrW6Lfej1yRT,2025-08-28,,active,Rafaela Hora Melo,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_EuvO8ygtjUWqVez4,2025-05-27,,active,Polizzi Mariela,BrainJuice CEO Pack,212.74,4,TRUE
+sub_Y4P9hT2A3Vpfvj95,2025-08-28,,active,Daniela Verçosa,1 All In Greens,124.34,1,TRUE
+sub_TCb80cGccJQgxPF8,2025-08-28,,active,Fernando Wilker Silva,1 Natural Fire,124.34,1,TRUE
+sub_7wXt7Y80vhfePHbL,2025-07-28,,active,Willians Rafael Faria,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_iWcFPPfuf3bfAG6V,2025-07-28,,active,Davidson Ferreira,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_LnnoHswkktAbDfWe,2025-06-27,,active,Alan Lojudice,BrainJuice CEO Pack,212.74,3,TRUE
+sub_cYkhOeUVjbeIpWQ3,2025-07-22,2025-08-28,canceled,Vinicius Gomes Oneda,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
+sub_XM69PMnLrYUlJG5f,2025-08-27,,active,Patrícia Fleck Cercato,1 All In Greens,124.34,1,TRUE
+sub_B86uV3dUJTKgnVlx,2025-04-24,2025-08-27,canceled,Jorge Marques Pelizzoni,BrainJuice CEO Pack,212.74,4,FALSE
+sub_FH3QrnPdjCInxmgo,2025-08-27,,active,Jorge Marques Pelizzoni,BrainJuice CEO Pack,212.74,1,TRUE
+sub_9PSdqKVOzPVt4t6z,2025-04-25,,active,Nicholas Savoia Marchioni,2 Reishi + 1 Cordyceps,212.74,5,TRUE
+sub_ESD8thNSuy9EOByL,2025-06-26,,active,Jackson Da Silva Matos,BrainJuice CEO Pack,212.74,3,TRUE
+sub_GpZGTXrMxxSQnLqT,2025-08-26,,active,Anderson Meister,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_l4QaSbvOV33V1x8o,2025-08-26,,active,Marcus Vinicius Da Silva Santos,1 All In Greens,124.34,1,TRUE
+sub_ifgeWuODN19Nac9X,2025-08-26,,active,Alvaro Filipe De Oliveira Mello,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_uHJQvdANe6uiKL7b,2025-04-24,,active,Anderson Martins De Souza,1 Cordyceps 2 Juba de Leão,212.74,5,TRUE
+sub_Ad27iyhEcceH0L7x,2025-06-26,,active,Carla Dumont,1 Reishi + 2 Cordyceps,212.74,2,TRUE
+sub_6bFcL4R8aL5BAfv7,2025-08-25,,active,Sheila Aparecida De Almeida,1 All In Greens,124.34,1,TRUE
+sub_qCd72KpQabGAKpEm,2025-08-25,,active,Caio Andrade De Luna,3 All In Greens,271.67,1,TRUE
+sub_e6EePPeB9suekVpt,2025-08-25,,active,Fernando Cesar Santana,3 All In Greens,271.67,1,TRUE
+sub_fGuAliBmxfk30uGj,2025-07-23,2025-08-25,canceled,Marcelo Tinel,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
+sub_dF5ZuObIx3wXdOfF,2025-08-25,,active,Dasser Lettiere Jr,1 Natural Fire,124.34,1,TRUE
+sub_tbUoHb5TykG9k7Ny,2025-05-18,2025-08-25,canceled,Marcus Vinícius Tavares De Oliveira,2 Cordyceps + 1 Juba de Leão,212.74,3,FALSE
+sub_qcyJDXdCjEC3LLQQ,2025-04-23,,active,Bruno Franco Seves,1 Reishi + 2 Cordyceps,212.74,5,TRUE
+sub_9wDqdeKJVHXIMr6Y,2025-06-24,,active,Vitor Miranda,BrainJuice CEO Pack,212.74,3,TRUE
+sub_sWDFBO5QrQVH0CzU,2025-07-25,,active,Oscar Rudge Taylor De Brito,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_8gST7tLDHSRYr94V,2025-08-24,,active,Wallace Maia,1 All In Greens,124.34,1,TRUE
+sub_9rn7thQao95KGMvK,2025-08-24,,active,Abner Prado Do Prado,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_Zq0k2g87eRmCzmG1,2025-08-24,,active,Joabe Borges,1 All In Greens,124.34,1,TRUE
+sub_KDis9ajY7GryRtmh,2025-08-24,,active,Ana Gabrielle Da Silva Vasconcellos,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_JpyYNmpjdLXXIgJD,2025-08-24,,active,Willian Nunes Meira Junior,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_hLTKHd3aGItYgx7Y,2025-04-22,,active,Wesley Hideki Fonseca Haru,BrainJuice CEO Pack  (Cópia),212.74,5,TRUE
+sub_PK25i5mWn5sORRsc,2025-04-22,2025-08-24,canceled,Bruno Nissental,1 Cordyceps 2 Juba de Leão,212.74,4,FALSE
+sub_l2tk9sdFH6CPyL0a,2025-08-24,,active,Lidiane Pimentel Ferreira,1 All In Greens,124.34,1,TRUE
+sub_tayWLAg21ZpMUaS2,2025-08-24,,active,Amanda Fernandes,1 Natural Fire,124.34,1,TRUE
+sub_nDlPaETaud4khdNU,2025-08-23,,active,Hyngridi Alves Soares De Oliveira,1 All In Greens,124.34,1,TRUE
+sub_HzETK7PqAYcyaqAq,2025-08-23,,active,Julia Dabdab Carneiro,3 All In Greens,271.67,1,TRUE
+sub_eOW5wTvtqw0sZnrp,2025-07-23,2025-08-23,canceled,Diego Lasa,2 Reishi + 1 Cordyceps,212.74,1,FALSE
+sub_HojVr9BfRH53UFra,2025-05-22,,active,Augusto Ferreira Russo,BrainJuice CEO Pack,212.74,4,TRUE
+sub_Sax8ozopBLIvpjhV,2025-05-22,,active,Matheus Gomes Moreira Da Silva,3 Juba de Leão,212.74,4,TRUE
+sub_7uQMrYegzcdDLQkT,2025-07-23,,active,Fabiano Cintra,2 All In Greens,212.74,2,TRUE
+sub_XOF5cY5n5JXQT3Kt,2025-08-23,,active,Luan Tarossi,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_OyQKllHhImal8jxE,2025-07-22,,active,Rangel Vilas Boas,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_K0m1HNdRWZP8HAtw,2025-08-22,,active,Nayara Gobara,1 All In Greens,124.34,1,TRUE
+sub_tHLoHDrSeemmgkxi,2025-07-22,2025-08-22,canceled,Amanda Wajnberg Fadel,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
+sub_jMILkmFXz0Itg4LC,2025-06-21,,active,Greg Landwehr Serson,BrainJuice CEO Pack,212.74,3,TRUE
+sub_qNRAqk7pYPIYonJF,2025-07-22,,active,Felipe Umeda,1 Natural Fire,124.34,2,TRUE
+sub_e9u8Y4WTPLxxUhIh,2025-07-22,,active,Joao Paulo Valente,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_jUbLDuOIHfdzL3xo,2025-06-21,,active,Romulo Filleti,BrainJuice CEO Pack,212.74,3,TRUE
+sub_dTQotzTzsdKRF5Uq,2025-07-22,,active,Marco Antonio Mendes Ferreira,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_VmUIvrgRYjVFFswC,2025-08-22,,active,Gabriel Pereira Duarte,1 Natural Fire,124.34,1,TRUE
+sub_Eye3znXGAUf5qMXW,2025-08-21,,active,Rafael Sizino Sebastião,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_8uxrCmUlLciShY3Z,2025-08-21,,active,Daniel Silveira Becman,1 Natural Fire,124.34,1,TRUE
+sub_3TTRg5QsozgCIp1U,2025-08-21,,active,Thiago Duarte De Oliveira,1 All In Greens,124.34,1,TRUE
+sub_vVtb60hNCyFdZHoH,2025-05-20,,active,Daniel Marques,1 Cordyceps 2 Juba de Leão,212.74,4,TRUE
+sub_7UvQXeja3NfNDxS1,2025-08-18,,inactive,Dulcilene Frasson,2 All In Greens,0.00,0,FALSE
+sub_kTSxTNSG9MoCkxO0,2025-08-21,,inactive,Yuri Martins,1 Natural Fire,0.00,0,FALSE
+sub_1ROqrI7157UmNpC2,2025-08-20,,active,Giuseppe Schettini Iennaco,1 All In Greens,124.34,1,TRUE
+sub_B50GByCQTquSShZX,2025-08-20,,active,Paulo Henrique Periotto,3 All In Greens,271.67,1,TRUE
+sub_uJ11jnNVclVQCGuv,2025-08-20,,active,Dulcilene Frasson,2 All In Greens,215.92,1,TRUE
+sub_r9oEXBkV621WZghS,2025-08-20,,active,Cairo Fernandes,1 All In Greens,124.34,1,TRUE
+sub_XPTDrtcUHOuyHWLZ,2025-08-20,,active,Monike Oliveira Ferreira,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_fpPXf3wIUAYrr3Ak,2025-08-20,,active,Polizzi Mariela,1 All In Greens,124.34,1,TRUE
+sub_6SWDG2hLKMDriiip,2025-04-18,,active,Ricardo Luis De Sousa,BrainJuice CEO Pack,212.74,5,TRUE
+sub_JyKPoMycSM0qJFvX,2025-06-19,,active,Cassiane Minelli De Oliveira,1 Cordyceps 2 Juba de Leão,212.74,3,TRUE
+sub_tsf9RTHootOEQaKs,2025-05-19,2025-08-20,canceled,Dayane Silveira Vidago,1 Cordyceps 2 Juba de Leão,212.74,3,FALSE
+sub_8QJHH2CysQivJSEx,2025-07-20,,active,Diego Cardoso Dourado,2 Reishi + 1 Cordyceps,212.74,2,TRUE
+sub_S0LZLu7XHJOOMrA0,2025-08-20,,active,Aleff Johnnys,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_ibbuayqMwhnB0fhf,2025-08-20,,active,Juliana Medeiros,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_XEx5LZq2eVgNru4v,2025-08-19,,active,Icaro Florim Soares,3 Natural Fire,271.67,1,TRUE
+sub_LmUlQN53ldAbzyfx,2025-08-19,,active,Fabiana Aparecida Da Silva,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_KKgekzbl2OEyqU5o,2025-08-19,,active,Liliane Ferreira,3 All In Greens,271.67,1,TRUE
+sub_SKn9rCKTLO6yR6Iv,2025-08-19,,active,Eduardo Zempulski,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_ZZqwmXxyWsCqHuo7,2025-08-19,,active,Mariana El Corab,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_vBPJO9f3o36RXEpt,2025-05-17,,overdue,Gabriela Ely Bedrossian,1 Cordyceps 2 Juba de Leão,215.92,1,FALSE
+sub_xYho5NLVc02HjrWz,2025-08-19,,active,Naiane Matias,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_VfLEYEMAEXNsj0qY,2025-08-18,,active,Tiago Gomes Cardoso Neto,1 Natural Fire,124.34,1,TRUE
+sub_S37Ma6a969l1BsXF,2025-08-18,,active,Douglas Alberto,3 Natural Fire,271.67,1,TRUE
+sub_dzjCifEljDDS7sNI,2025-08-18,,active,Marcelo França Dalla Costa,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_JZDRCMWyDUHAJF8S,2025-08-18,,active,Marceli Pazini Milani,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_BbDDrQn030A8fMku,2025-08-18,,active,Christopher Scharf Fleck,1 All In Greens,124.34,1,TRUE
+sub_HYqE7WHeUoms9Bw2,2025-08-18,,active,Antonio Carlos Vaz Junior,1 All In Greens,124.34,1,TRUE
+sub_CXr12QooSyzCVaNl,2025-08-17,,active,José David Pinheiro Silverio,1 All In Greens,124.34,1,TRUE
+sub_lx1FNIzcvkKMUyR0,2025-08-17,,active,Robson Carmo,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_KLDesyzxkdy4WwqG,2025-08-17,,active,Antony Francisco,1 Natural Fire,124.34,1,TRUE
+sub_osGEAkaEEjktyNxB,2025-08-17,,active,Victor Coimbra,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_Eulg4mOhwdbYJKYk,2025-08-17,,active,Heber Leonardo Pamplona Cunha,3 Natural Fire,271.67,1,TRUE
+sub_kbv2Kw6coIQfkDAz,2025-07-17,2025-08-17,canceled,Pedro Henrique Sampaio,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
+sub_lyQVcIlurdxUD3rd,2025-06-16,2025-08-17,canceled,Philippe Senos Braga,BrainJuice CEO Pack,212.74,2,FALSE
+sub_zOHoejgbvfrjS3At,2025-05-16,,active,Guilherme Chiesa,BrainJuice CEO Pack,212.74,4,TRUE
+sub_56IhZOgleEpEy9UG,2025-04-15,,active,Andrea Bonhote,BrainJuice CEO Pack,212.74,5,TRUE
+sub_jgDimhtD1MyI9ukF,2025-08-16,,active,Luis Augusto Martins,3 All In Greens,271.67,1,TRUE
+sub_9zbOm6F0VEJBL8b7,2025-08-16,,active,Leandro O M Da Cruz,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_XE4QkykiGsjeXDPa,2025-08-16,,active,Flávia Cristina De Oliveira Silva,1 All In Greens,124.34,1,TRUE
+sub_l15HyV35BgNCAqi3,2025-08-16,,active,Adriano Ferreira Bezerra De Menezes,1 Natural Fire,124.34,1,TRUE
+sub_w3AG5GaJdz9lNqSU,2025-08-16,,active,Márcia Douetts Gouveia,1 All In Greens,124.34,1,TRUE
+sub_xAfrm463DGqHIV9a,2025-07-16,,active,Henrique Silva Rezende,BrainJuice CEO Pack,212.74,2,TRUE
+sub_bpkPaVmuij0tFMu2,2025-05-15,,active,Joao Marcos De Sousa Goes,2 Cordyceps + 1 Juba de Leão,212.74,4,TRUE
+sub_z7qZpxkPrueHE1Wm,2025-08-15,,active,Fernando Lima,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_fNZjwrMRk5eS9te7,2025-05-14,2025-08-15,canceled,Paulo Henrique Borges Knop,BrainJuice CEO Pack,212.74,3,FALSE
+sub_ND0R2Ye0PSUDe16u,2025-05-08,2025-08-15,canceled,Rodolfo F Luz,1 Cordyceps 2 Juba de Leão,212.74,3,FALSE
+sub_umn8d7hj7gxSqH9O,2025-07-15,,active,Rodrigo Matheucci,2 Reishi + 1 Juba de Leão,212.74,2,TRUE
+sub_WwjKRbgTHqvbeP1Z,2025-05-14,2025-08-15,canceled,Wélksom Barroso,BrainJuice CEO Pack,212.74,3,FALSE
+sub_geGe6Yi2ulmYpk1s,2025-05-08,2025-08-15,canceled,Astrid Milan Hage,BrainJuice CEO Pack,212.74,3,FALSE
+sub_xCGtq6sM0AFGt0XN,2025-06-09,,overdue,Dulcilene Frasson,1 Cordyceps 2 Juba de Leão,215.92,2,FALSE
+sub_hmPndyFZJFaYx6hX,2025-08-14,,active,Israel Schuindt Meirelles,3 All In Greens,271.67,1,TRUE
+sub_OBVZV9SPtZAbuXDA,2025-08-04,2025-08-14,canceled,Lillymel Abiraad,1 All In Greens,124.34,1,FALSE
+sub_mefw4y1ZtTLZjAyb,2025-08-14,,active,Gustavo Albiero,BrainJuice CEO Pack,212.74,1,TRUE
+sub_nw9LdqZPXm3KbG96,2025-05-01,2025-08-14,canceled,Marcelo Motta Tapajós Araújo,BrainJuice CEO Pack,212.74,4,FALSE
+sub_RsuNP4lY5IP6gXa8,2025-05-13,,active,Enzo De Gerone Benedocci,3 Juba de Leão,212.74,4,TRUE
+sub_VWI2Wk4W0exGUVw5,2025-05-13,,active,Bruno Rezende Garcia,3 Juba de Leão,212.74,4,TRUE
+sub_zQyWvMsfOoFOYpE7,2025-06-13,,active,Luis Felipe Bonato,BrainJuice CEO Pack,212.74,3,TRUE
+sub_ysfASrEvKPqw45pA,2025-08-14,,active,Victoria Barros,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_VOqwpR0WpOch9jfT,2025-08-13,,active,Leonardo Garcia Cavalcanti,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_C56vS6yOGg6BSFUO,2025-08-13,,active,Thiago Ortiz,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_y43F25nxzbzmjHeZ,2025-08-13,,active,Filipe Arruda Romaguera,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_AU9mNF6UnEDGDja7,2025-08-13,,active,Sandro Padilha,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_Jnfy679jKtGv70vd,2025-08-13,,active,Claudio Lourenço,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_rNrsrWSYXgfhbFFv,2025-08-13,,active,Vitor Hideki Yamamoto Tiba,1 All In Greens,124.34,1,TRUE
+sub_V9wsi0F1kWdxaXKE,2025-08-04,2025-08-13,canceled,Vitor Hideki Yamamoto Tiba,1 All In Greens,124.34,1,FALSE
+sub_vtkpxbomoGU7N9sf,2025-06-12,,active,Bruno Trevisan,BrainJuice CEO Pack,212.74,3,TRUE
+sub_K6LWRkIk857YsDzw,2025-08-12,,active,Olívia Rocha,1 All In Greens,124.34,1,TRUE
+sub_XgSiw4gPP7qjWKPf,2025-08-12,,active,Giorgio Otto,1 All In Greens,124.34,1,TRUE
+sub_WsGbn2QNfJof0V7B,2025-08-12,,active,Enzo Yoschino Cazelato,1 All In Greens + 1 Natural Fire,212.74,1,TRUE
+sub_BSLFSE16tGJX2DZw,2025-06-11,,active,Fernando Daitx,1 Reishi + 2 Juba,212.74,3,TRUE
+sub_4Ld5UUy3MNKN5pva,2025-06-11,,active,Rodrigo Matheucci,BrainJuice CEO Pack,212.74,3,TRUE
+sub_jkS8klIpX9ZImQJM,2025-06-11,,active,João Vitor Piva,BrainJuice CEO Pack,212.74,3,TRUE
+sub_2PaZR9zSuBG92IzG,2025-08-11,,active,Julio Cesar Silva Da Paz,1 All In Greens,124.34,1,TRUE
+sub_y3dOOSoohYQuFWU6,2025-08-11,,active,Luis Guilherme Pires Goncalves,3 All In Greens,271.67,1,TRUE
+sub_w48gxKUfR9wl0PKe,2025-08-11,,active,Danilo Vieira Pinheiro De Nobrega,1 All In Greens,124.34,1,TRUE
+sub_51LVjrftx7KAfipL,2025-08-11,,active,Henrique Gazziero Miranda Cardoso,1 Natural Fire,124.34,1,TRUE
+sub_pgcEA2Fxq8UZ5ffS,2025-06-10,2025-08-11,canceled,Vinicius Buhatem,1 Reishi + 2 Juba,212.74,2,FALSE
+sub_7okSw6fIXMuDEGDh,2025-06-10,,active,Roberto Hage De Matos,1 Cordyceps 2 Juba de Leão,212.74,3,TRUE
+sub_3Hd0AzYGht1MQ0A0,2025-07-11,,active,Wesley Garcia De Oliveira Junior,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_EjNHHPLHEDL8pOHB,2025-08-11,,active,Tiago De Oliveira Teixeira,1 All In Greens,124.34,1,TRUE
+sub_EGGs57BbL3nPX5nc,2025-07-10,2025-08-10,canceled,Victor Luis Lima Moreira,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
+sub_4FL7LuV5CY4bbB0c,2025-06-04,2025-08-10,canceled,Gustavo Albiero,BrainJuice CEO Pack,212.74,1,FALSE
+sub_6gC64myj3IQaUmqL,2025-06-09,2025-08-09,canceled,Matheus De Boni Costa Carvalho,1 Reishi + 2 Cordyceps,212.74,1,FALSE
+sub_uWGfoGbhYvHhKyCW,2025-06-08,2025-08-09,canceled,Maria Rodrigues Vianna,BrainJuice CEO Pack,212.74,2,FALSE
+sub_dsFdVtvASUg8sOc9,2025-06-09,,active,José Augusto De Carvalho Neto,BrainJuice CEO Pack,212.74,2,TRUE
+sub_U70At247DCcjaFSw,2025-05-29,2025-08-05,canceled,Caroline Ferreira Prado,1 Cordyceps 2 Juba de Leão,212.74,2,FALSE
+sub_GvUXLG7k3quQnhaT,2025-06-26,2025-08-02,canceled,Marco Antonio Mendes Ferreira,BrainJuice CEO Pack,212.74,1,FALSE
+sub_ZzIYF9de3jzkjVcZ,2025-04-29,2025-08-01,canceled,Cristiane De Jesus Brasileiro,2 Cordyceps + 1 Juba de Leão,215.92,1,FALSE
+sub_tQR08QoY21ps5JBo,2025-05-29,2025-08-01,canceled,Deborah Collino Fábio Bernacca,BrainJuice CEO Pack,212.74,2,FALSE
+sub_MF7IYTC3Nx5ApunT,2025-06-27,2025-08-01,canceled,Daniella Grando,2 Reishi + 1 Cordyceps,212.74,1,FALSE
+sub_VlFPGjTDW7wkamlJ,2025-05-15,2025-07-22,canceled,Marcos Leandro Bicca,2 Cordyceps + 1 Juba de Leão,212.74,2,FALSE
+sub_yiHhV1uQSew6jYBS,2025-07-17,,inactive,Mateus José Franco,3 Juba de Leão,0.00,0,FALSE
+sub_XN9hKPNjT5IFNRAS,2025-06-08,2025-07-15,canceled,Caio Rodrigues,BrainJuice CEO Pack,212.74,1,FALSE
+sub_E3o12NOZxO4YiqCY,2025-05-13,2025-07-14,canceled,Jean Carlos Both,BrainJuice CEO Pack,212.74,2,FALSE
+sub_ux9hrGoMUvjns3Iu,2025-05-12,2025-07-13,canceled,Bruno Kiraly,3 Reishi,212.74,2,FALSE
+sub_VzBtG4xSWmQYWpyb,2025-06-05,2025-07-12,canceled,Lucas Campana,BrainJuice CEO Pack,212.74,1,FALSE
+sub_dlFlNzCfMVlMqwBJ,2025-05-12,,active,Flávia Andriolo,BrainJuice CEO Pack  (Cópia),212.74,2,TRUE
+sub_yaVTOCQnZcGnkjha,2025-06-03,2025-07-10,canceled,Matheus Vieira Peres,1 Reishi + 2 Juba,212.74,1,FALSE
+sub_nkkGi3JhgbL1O0XL,2025-05-08,2025-07-09,canceled,Alessandra Cunha Ferreira Silva,BrainJuice CEO Pack,212.74,2,FALSE
+sub_1b8Yr01oDQ0ZxKKM,2025-05-06,2025-07-07,canceled,Davis Rabuske De Matos,BrainJuice CEO Pack,212.74,2,FALSE
+sub_4YAhWQhK2v3ZuO2K,2025-05-30,2025-07-06,canceled,Clovis De Macedo Vinhosa,1 Reishi + 2 Juba,212.74,1,FALSE
+sub_qdV4iscyiKrkM2Cr,2025-04-30,2025-07-06,canceled,Alex Suraty Ramos,BrainJuice CEO Pack,212.74,1,FALSE
+sub_Qpf4BZswRCFIO0T9,2025-07-03,,inactive,João Brasil,1 Cordyceps 2 Juba de Leão,0.00,0,FALSE
+sub_fWaV3TgsZUcG5X2h,2025-05-30,2025-07-04,canceled,Caroline Ferreira Prado,3 Juba de Leão,212.74,1,FALSE
+sub_mEdrtN6EwkZtYtCb,2025-05-01,2025-07-04,canceled,Thiago Magno De Carvalho Costa,BrainJuice CEO Pack,212.74,2,FALSE
+sub_0SEqHear32lAR83b,2025-05-01,2025-07-04,canceled,Walter Alves Ferreira,3 Juba de Leão,215.92,1,FALSE
+sub_KnjIDiZviNI0puhA,2025-05-28,2025-07-04,canceled,Thiago De Brito,BrainJuice CEO Pack,212.74,1,FALSE
+sub_TejxA8ANGdnRdAqR,2025-06-30,,inactive,Bruno Hashizumi,1 Cordyceps 2 Juba de Leão,0.00,0,FALSE
+sub_PrDCea3QSkGipz72,2025-04-25,2025-07-02,canceled,Jackson Da Silva Matos,BrainJuice CEO Pack,212.74,2,FALSE
+sub_5IQLMo26R3dJTL52,2025-06-03,2025-06-30,canceled,Leonardo Miranda Leite,2 Cordyceps + 1 Juba de Leão,212.74,1,FALSE
+sub_88jKw3QKNWYFnJI6,2025-05-05,2025-06-26,canceled,Leonidio Borges,BrainJuice CEO Pack,212.74,1,FALSE
+sub_70ia7JgNV3idQBga,2025-04-25,2025-06-26,canceled,Marco Antonio Mendes Ferreira,BrainJuice CEO Pack,212.74,2,FALSE
+sub_6iqiii1iZhlwp1H5,2025-04-17,2025-06-24,canceled,Francilei Alves Pereira,BrainJuice CEO Pack,212.74,2,FALSE
+sub_mDU0gPgecCqyEURX,2025-04-16,2025-06-17,canceled,Aline Gomes Sattler,BrainJuice CEO Pack,212.74,2,FALSE
+sub_e167xknIPRWqCHpD,2025-05-08,2025-06-14,canceled,Gabriel Da Silva Brasil,1 Reishi + 2 Juba,212.74,1,FALSE
+sub_D4OpKMnCs0mpNU2H,2025-05-05,2025-06-11,canceled,Everton De Paula,2 Cordyceps + 1 Juba de Leão,212.74,1,FALSE
+sub_j7qu7NSWFxUaKK4p,2025-05-05,2025-06-11,canceled,Lucas Campana,BrainJuice CEO Pack,212.74,1,FALSE
+sub_BsVpRLsAmaWGq5xA,2025-06-05,2025-06-09,canceled,Paula Dos Santos Goulart,2 Cordyceps + 1 Juba de Leão,212.74,1,FALSE
+sub_3fNCFe668AhgRe5R,2025-04-30,2025-06-06,canceled,José Ricardo Esteves Garcia,1 Reishi + 2 Cordyceps,212.74,1,FALSE
+sub_DIFX2Hi7zWdhtnKR,2025-04-23,2025-05-30,canceled,Leonardo Kirchner,3 Juba de Leão,212.74,1,FALSE
+sub_YO5fE2C2vvVXBL66,2025-04-29,2025-05-29,canceled,Adalberto Rodrigues Pereira,BrainJuice CEO Pack,212.74,1,FALSE
+sub_4CwmsAjlNlUJNn0E,2025-04-17,2025-05-23,canceled,Natalia Galofaro,1 Cordyceps 2 Juba de Leão,212.74,2,FALSE
+sub_G5HYeEDBQajtJWa7,2025-04-17,2025-05-23,canceled,Clovis De Macedo Vinhosa,BrainJuice CEO Pack,212.74,1,FALSE
+sub_S2FiGsKrG4S8aW7b,2025-04-07,2025-05-08,canceled,Arthur Gums,BrainJuice CEO Pack  (Teste),4.01,1,FALSE
+sub_spJ2L3LI28IT5L3S,2025-04-14,,inactive,Arthur Gums,BrainJuice CEO Pack,0.00,0,FALSE
+sub_k8pftbLbfhQraEb1,2025-04-11,,inactive,Arthur Gums,BrainJuice CEO Pack,0.00,0,FALSE
+sub_sh0ugZSjspd4dPMv,2025-04-09,,inactive,Teste Frenet,BrainJuice CEO Pack  (Teste),0.00,0,FALSE
+sub_ZV0wy00E661VdmDS,2025-05-28,2025-09-10,canceled,Andre Brandao,1 Cordyceps 2 Juba de Leão,212.74,3,FALSE
+sub_Z5mNCSB4hVSCt4jz,2025-09-10,,active,Jessica Hammes,1 All In Greens,124.34,1,TRUE
+sub_QbXVkTkvs6xFu5SI,2025-09-10,,active,Gustavo Moreira Arrais Neto,1 Natural Fire,124.34,1,TRUE
+sub_HwpdNm5IwDu5U5Q0,2025-09-10,,active,Luiz Inácio Montanher Júnior,3 All In Greens,271.67,1,TRUE
+sub_Z95GR8EzgZxlhL8f,2025-08-10,2025-09-10,canceled,Vilson Ferreira Alves,1 All In Greens,124.34,1,FALSE
+sub_KrTduULHydXhQqgl,2025-08-10,,active,Hugo Cabral,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_AVv9BjI9t5FlYNMk,2025-08-08,,overdue,Vinicius Mafra,1 All In Greens + 1 Natural Fire,212.74,1,FALSE
+sub_Oq9ZOLUAkDPdxtkt,2025-08-10,,active,Orlando Benedito De Souza,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
+sub_orxhpc06MZbhV2Fk,2025-08-10,,active,Adrielli Cerqueira,1 All In Greens + 1 Natural Fire,212.74,2,TRUE
 sub_FLOws1Va52gcbiMY,2025-08-10,,active,Osni De Freitas Junior,3 Natural Fire,271.67,2,TRUE
 sub_oHxkMivtfqJMc8XD,2025-06-09,,active,Walter Alves Ferreira,BrainJuice CEO Pack,212.74,4,TRUE
 sub_9wKNTwnRZaer9mN5,2025-08-08,,overdue,Ingrid Bayard,1 All In Greens,124.34,1,FALSE
