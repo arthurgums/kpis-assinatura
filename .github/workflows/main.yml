@@ -2,7 +2,7 @@
 name: Atualizar Dashboard de KPIs
 
 on:
-  workflow_dispatch: # Permite executar manualmente pela interface do GitHub
+  workflow_dispatch:
   schedule:
     - cron: '0 8 * * *' # Executa todos os dias às 08:00 (UTC)
 
@@ -34,3 +34,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
+          # Força a publicação sem usar o Jekyll
+          force_orphan: true 
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
