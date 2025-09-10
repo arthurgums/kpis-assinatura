@@ -2,7 +2,7 @@
 name: Atualizar Dashboard de KPIs
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Permite executar manualmente pela interface do GitHub
   schedule:
     - cron: '0 8 * * *' # Executa todos os dias às 08:00 (UTC)
 
@@ -21,20 +21,15 @@ jobs:
       - name: 3. Instalar as Bibliotecas
         run: pip install -r requirements.txt
 
-      - name: 4. Executar o script principal (main.py) para buscar dados
-        run: python main.py
+      - name: 4. Executar os scripts para gerar o dashboard
+        run: |
+          python main.py
+          python gerar_dashboard.py
         env:
           DMG_USER_TOKEN: ${{ secrets.DMG_USER_TOKEN }}
 
-      - name: 5. Executar o script que gera o dashboard
-        run: python gerar_dashboard.py
-
-      - name: 6. Publicar no GitHub Pages
+      - name: 5. Publicar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          # Força a publicação sem usar o Jekyll
-          force_orphan: true 
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
