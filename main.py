@@ -13,8 +13,14 @@ from urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
 from dotenv import load_dotenv
 
-# Carrega as variáveis do ficheiro .env para o ambiente
+# Carrega o .env principal (para o token no GitHub Actions)
 load_dotenv()
+# Carrega o .env.local se ele existir (para o seu ambiente local)
+if os.path.exists('.env.local'):
+    load_dotenv(dotenv_path='.env.local')
+    print("-> A executar em modo LOCAL (a usar .env.local).")
+else:
+    print("-> A executar em modo PRODUÇÃO (a usar GitHub Secrets).")
 
 # =========================
 # CONFIG
@@ -22,10 +28,10 @@ load_dotenv()
 
 BASE_URL = "https://digitalmanager.guru/api/v2"
 
-# Lê o token do ambiente (carregado a partir do .env). Se não existir, o script irá falhar.
+# Lê o token do ambiente. Se não existir, o script irá falhar.
 DMG_USER_TOKEN = os.getenv("DMG_USER_TOKEN")
 if not DMG_USER_TOKEN:
-    raise ValueError("O token DMG_USER_TOKEN não foi encontrado. Verifique se o ficheiro .env existe e está configurado corretamente.")
+    raise ValueError("O token DMG_USER_TOKEN não foi encontrado. Verifique os seus ficheiros .env ou os Secrets do GitHub.")
 
 END_DATE   = os.getenv("END_DATE",   datetime.now().strftime("%Y-%m-%d"))
 
