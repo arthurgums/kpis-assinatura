@@ -1,0 +1,6 @@
+requests
+pytz
+urllib3
+python-dotenv
+pandas
+plotly

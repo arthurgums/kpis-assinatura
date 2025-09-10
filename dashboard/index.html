@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Assinaturas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/material_blue.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Dashboard de Assinaturas</h1>
+        <p id="last-update" class="footer"></p>
+        
+        <h2>Visão Geral (Global)</h2>
+        <div id="global-kpi-grid" class="kpi-grid"></div>
+
+        <div class="filters">
+            <input type="text" id="date-range-picker" placeholder="Selecione um período">
+        </div>
+        
+        <h2>Métricas da Coorte Selecionada</h2>
+        <div id="period-kpi-grid" class="kpi-grid"></div>
+        
+        <h2>Tendências da Coorte</h2>
+        <div class="chart-grid">
+            <div class="chart-container">
+                <canvas id="retentionChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="mrrChart"></canvas>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://npmcdn.com/flatpickr/dist/l10n/pt.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+    
